@@ -1,0 +1,317 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Sen;
+}
+
+body
+{
+    padding: 0;
+}
+
+.header
+{
+    width: 100%;
+    height: 75px;
+    border-bottom: solid 1px color#d4d4d4;
+}
+
+.logo
+{
+    width: 300px;
+    height: 100%;
+    float: left;
+    font: 45px;
+}
+
+.options
+{
+    width: 600px;
+    float: right;
+}
+
+.websiteName
+{ 
+    margin-top: 30px;
+}
+
+.headerNav
+{
+    margin-top: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a:hover 
+{
+    color: #faa2af;
+}
+
+a#active
+{
+    color: #faa2af;
+}
+
+.body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.mainFocus
+{
+    height: 800px;
+    margin-top: 20px;
+    margin-left: -60px;
+}
+
+.mainText
+{
+    width: 500px;
+    height: 300px;
+    margin-top: -200px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.DancingScript
+{
+    font-family: DancingScript;
+    font-size: 100px;
+    color: #faa2af;
+}
+
+.Sen 
+{
+    font-family: Sen;
+    font-size: 100px;
+    color: #faa2af;
+}
+
+.slogan
+{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.signUp-section
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp-text
+{
+    width: 400px;
+    color: #595959;
+}
+
+.signUp-button:hover
+{
+    color: white;
+    transform: scale(105%)
+    
+}
+
+.selection
+{
+    width: 100%;
+    display: flex;
+}
+
+.blog
+{
+    width: 33%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.blog:hover
+{
+    color: white;
+    filter: brightness(90%);
+}
+
+.selectionTag
+{
+    position: absolute;
+}
+
+.sighUpBody
+{
+    width: 100%;
+    height: 820px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpSection 
+{
+    width: 100px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.login
+{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp 
+{
+    width: 50%;
+    height: 90%;
+    border-left: 1px solid #faa2af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optionLabel 
+{
+    font-family: Dancing Script;
+    font-size: 60px;
+    color: #faa2af;
+    margin-bottom: 30px;
+}
+
+.label 
+{
+    font-size: 20px;
+    width: 65%;
+    margin-bottom: -20px;
+}
+
+.input 
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit
+{
+    font-size: 25px;
+    font-family: Dancing Script;
+    color: #faa2af;
+    border: none;
+    background: none;
+}
+
+.submit:hover
+{
+    transform: scale(110%);
+}
+
+.contentSpace 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentSlogan
+{
+    font-family: Dancing Script;
+    color: #faa2af;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.workoutVideo
+{
+    margin-top: -50px;
+}
+
+.meals
+{
+    width: 900px;
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dietImage
+{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    border-radius: 30px;
+}
+
+.mealDescription
+{
+    width: 580px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.sommerSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSommer
+{
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sommerSlogan 
+{
+    font-family: Dancing Script;
+    color: #faa2af;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.dietImage
+{
+    margin-top: 30px;
+}
+
+.contactImage
+{
+    width: 800px;
+    height: 800px;
+}
+
+.sommerDescription 
+{
+    font-size: 20px;
+}
